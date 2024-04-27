@@ -1,13 +1,13 @@
 const testaticle = [
     {
         "_id": "65d0aed08132ce337fe9d061",
-        "addarticle": "SOLEIL BLANC",
+        "addarticle": "SOLEIL D'OMBRE",
         "quantity": 3,
         "quanvend": 4,
         "addgenre": "Tous",
         "addprix": 120000,
         "addreduction": 100000,
-        "addcoul": "#991C00,#B57E28,#995001,#eeeeee",
+        "addcoul": "#442C24,#BA8C5A,#E3D7C9,#40581B",
         "addmarque": "SWISS ARABIAN",
         "barcode": "6295124030475",
         "owner": "uniko",
@@ -23,13 +23,13 @@ const testaticle = [
     },
     {
         "_id": "65d0aed08132ce337ba9d061",
-        "addarticle": "INVISIBLE ROSE",
+        "addarticle": "Terre D'OR",
         "quantity": 3,
         "quanvend": 4,
         "addgenre": "Tous",
         "addprix": 80000,
         "addreduction": 0,
-        "addcoul": "#E49BA6,#B62F51,#B95771,#E49BA6",
+        "addcoul": "#FCD58C,#141414,#FFFFB3,#131517",
         "addmarque": "SWISS ARABIAN",
         "barcode": "6295124030475",
         "owner": "uniko",
@@ -42,6 +42,28 @@ const testaticle = [
         "created": "1708175056317",
         "addoccasion": "",
         "notes": "Pure sensation de Rose velours Et de Patchouli Lacté. Un parfum fruité, floral Parfum Féminin , Doux et Attirant. Notes de tête : Cassis Notes de coeur: Eau de Rose , Rose , Iris Notes de fond: Patchouli , Notes Boisées. 100ml : 18.000fr 60ml: 10.000fr 30ml : 6500fr 8ml : 1500fr"
+    },
+    {
+        "_id": "65d0aed0oa32ce337fe9d061",
+        "addarticle": "AMBYRATE ARABE",
+        "quantity": 3,
+        "quanvend": 4,
+        "addgenre": "Tous",
+        "addprix": 150000,
+        "addreduction": 100000,
+        "addcoul": "#771434,#411830,#CFCBB8,#B39353",
+        "addmarque": "SWISS ARABIAN",
+        "barcode": "6295124030475",
+        "owner": "uniko",
+        "image": [
+            {
+                "ima": "./assets/img/test3.jpg",
+                "_id": "65d0aed08132ce337fe9d062"
+            }
+        ],
+        "created": "1708175056317",
+        "addoccasion": "",
+        "notes": "Je vous le conseille en cette période ensoleillée, Il illuminera votre journée C’est un parfum d’été, très agréable à porter. Il sent la fraîcheur, la propreté ´. Il est doux On sent la noix de coco et le jasmin. Famille olfactive : Ambrée florale See less"
     }
 ];
 

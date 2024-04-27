@@ -8,12 +8,12 @@ async function setPageSettings() {
     if (setPad && setPad.length > 0) {
         if (isMobileDevice()) {
             $(".banner-bg1").css("background-image", `url(${setPad.find(item => item.which === "phonea") ? setPad.find(item => item.which === "phonea").image : "./assets/img/test1.jpg"})`);
-            $(".banner-bg2").css("background-image", `url(${setPad.find(item => item.which === "phoneb") ? setPad.find(item => item.which === "phoneb").image : "./assets/logo.jpg"})`);
+            $(".banner-bg2").css("background-image", `url(${setPad.find(item => item.which === "phoneb") ? setPad.find(item => item.which === "phoneb").image : "./assets/img/test3.jpg"})`);
             $(".banner-bg3").css("background-image", `url(${setPad.find(item => item.which === "phonec") ? setPad.find(item => item.which === "phonec").image : "./assets/img/test2.jpg"})`);
 
         } else {
             $(".banner-bg1").css("background-image", `url(${setPad.find(item => item.which === "slidea") ? setPad.find(item => item.which === "slidea").image : "./assets/img/test1.jpg"})`);
-            $(".banner-bg2").css("background-image", `url(${setPad.find(item => item.which === "slideb") ? setPad.find(item => item.which === "slideb").image : "./assets/logo.jpg"})`);
+            $(".banner-bg2").css("background-image", `url(${setPad.find(item => item.which === "slideb") ? setPad.find(item => item.which === "slideb").image : "./assets/img/test3.jpg"})`);
             $(".banner-bg3").css("background-image", `url(${setPad.find(item => item.which === "slidec") ? setPad.find(item => item.which === "slidec").image : "./assets/img/test2.jpg"})`);
         }
 
@@ -32,10 +32,10 @@ async function setPageSettings() {
         $("#background-video")[0].play();
 
         $(".banner-bg1").css("background-image", "url(./assets/img/test1.jpg)");
-        $(".banner-bg2").css("background-image", "url(./assets/logo.jpg)");
+        $(".banner-bg2").css("background-image", "url(./assets/img/test3.jpg)");
         $(".banner-bg3").css("background-image", "url(./assets/img/test2.jpg)");
 
-        $(".ads-image").css("background-image", "url(./assets/logo.jpg)");
+        $(".ads-image").css("background-image", "url(./assets/img/test3.jpg)");
     }
 
 };
